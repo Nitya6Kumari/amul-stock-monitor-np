@@ -55,10 +55,9 @@ def is_in_stock(url):
 
     page_text = response.text.lower()
 
-    if "sold out" in page_text:
-        return False
+    print(page_text[:5000])
 
-    return True
+    return False
 
 
 def load_products():
