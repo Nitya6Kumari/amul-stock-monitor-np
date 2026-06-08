@@ -1,0 +1,1 @@
+Enable amul products notification
